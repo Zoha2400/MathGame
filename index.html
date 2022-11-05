@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Math game</title>
+</head>
+<body>
+    
+    <div class="gameContainer-wrapper">
+
+        <div class="timer"></div>
+
+        <div class="notify-wrapper">
+            <div class="notify">
+                <p>Press key <code>A</code> for <span class="spanTrue">True</span></p>
+                <p>Press key <code>D</code> for <span class="spanFalse">False</span></p>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="mathDisplay">
+                <span class="number"></span>
+                <span class="answer"></span>
+            </div>
+
+            <div class="buttons">
+                <div class="true button">True</div>
+                <div class="false button">False</div>
+            </div>
+
+            <div class="score">Score: <p id="score">0</p></div>
+            
+            <div class="startList">
+                <button class="start">Start</button>
+            </div>
+
+        </div>
+
+        <div class="stop">
+            <p>Stop</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
